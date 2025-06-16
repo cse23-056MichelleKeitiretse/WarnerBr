@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Warner Bros Movie Website - Trending, Coming Soon, and Currently Showing Movies" />
+    <meta name="theme-color" content="#1a1a2e" />
+    <title>Warner Bros</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon-32x32.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo" tabindex="0">WarnerBros</h1>
+            </div>
+            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+            <div class="menu-container" id="primary-menu">
+                <ul class="menu-list" role="menubar">
+                    <li class="menu-list-item active" role="none"><a href="Index.html" role="menuitem" aria-current="page">Home</a></li>
+                    <li class="menu-list-item" role="none"><a href="Movies.html" role="menuitem">Movies</a></li>
+                    <li class="menu-list-item" role="none"><a href="Category.html" role="menuitem">Category</a></li>
+                    <li class="menu-list-item" role="none"><a href="AboutUs.html" role="menuitem">About</a></li>
+                    <li class="menu-list-item" role="none"><a href="Feedback.html" role="menuitem">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" tabindex="0">
+            <h1>WELCOME TO WARNERBROS</h1>
+        </div>
+        <div class="slideshow" aria-label="Video slideshow">
+            <video autoplay loop muted playsinline>
+                <source src="Images/VideoSlideshow.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <h2 class="w3-center">Trending</h2>
+    <section class="image-container" aria-label="Trending movies">
+        <a href="https://youtu.be/10VphsyJhbU" class="video-link movie-item" tabindex="0">
+            <img src="Images/Jumanji.jpg" alt="Jumanji movie poster" loading="lazy" />
+            <div class="caption">Jumanji</div>
+        </a>
+        <a href="https://youtu.be/WTLgg8oRSBE" class="video-link movie-item" tabindex="0">
+            <img src="Images/Purple hearts.jpg" alt="Purple Hearts movie poster" loading="lazy" />
+            <div class="caption">Purple Hearts</div>
+        </a>
+        <a href="https://youtu.be/jQ8CCg1tOqc" class="video-link movie-item" tabindex="0">
+            <img src="Images/Alive.jpg" alt="Alive movie poster" loading="lazy" />
+            <div class="caption">Alive</div>
+        </a>
+        <a href="https://youtu.be/h9MSHl40z-g" class="video-link movie-item" tabindex="0">
+            <img src="Images/Top Boy.jpg" alt="Top Boy movie poster" loading="lazy" />
+            <div class="caption">Top Boy</div>
+        </a>
+        <a href="https://youtu.be/5xH0HfJHsaY" class="video-link movie-item" tabindex="0">
+            <img src="Images/Parasite.jpg" alt="Parasite movie poster" loading="lazy" />
+            <div class="caption">Parasite</div>
+        </a>
+        <a href="https://youtu.be/XdKzUbAiswE" class="video-link movie-item" tabindex="0">
+            <img src="Images/Turning red.jpg" alt="Turning Red movie poster" loading="lazy" />
+            <div class="caption">Turning Red</div>
+        </a>
+    </section>
+
+    <h2 class="w3-center">Coming Soon</h2>
+    <section class="image-container" aria-label="Coming soon movies">
+        <a href="https://youtu.be/QkT-HIMSrRk" class="video-link movie-item" tabindex="0">
+            <img src="Images/13 Reasons why.jpg" alt="13 Reasons Why movie poster" loading="lazy" />
+            <div class="caption">13 Reasons Why</div>
+        </a>
+        <a href="https://youtu.be/kbjIaPzODs0" class="video-link movie-item" tabindex="0">
+            <img src="Images/Good Girls.jpg" alt="Good Girls movie poster" loading="lazy" />
+            <div class="caption">Good Girls</div>
+        </a>
+        <a href="https://youtu.be/DzfpyUB60YY" class="video-link movie-item" tabindex="0">
+            <img src="Images/Get Out.jpg" alt="Get Out movie poster" loading="lazy" />
+            <div class="caption">Get Out</div>
+        </a>
+        <a href="https://youtu.be/XtgCqMZofqM" class="video-link movie-item" tabindex="0">
+            <img src="Images/Five feet apart.jpg" alt="Five Feet Apart movie poster" loading="lazy" />
+            <div class="caption">Five Feet Apart</div>
+        </a>
+        <a href="https://youtu.be/MaJ7ZT70ve4" class="video-link movie-item" tabindex="0">
+            <img src="Images/My name.jpg" alt="My Name movie poster" loading="lazy" />
+            <div class="caption">My Name</div>
+        </a>
+        <a href="https://youtu.be/DJNT7C61NrE" class="video-link movie-item" tabindex="0">
+            <img src="Images/Treasure Planet.jpg" alt="Treasure Planet movie poster" loading="lazy" />
+            <div class="caption">Treasure Planet</div>
+        </a>
+    </section>
+
+    <h2 class="w3-center">Currently Showing</h2>
+    <section class="image-container" aria-label="Currently showing movies">
+        <a href="https://youtu.be/0c57WC9Vc30" class="video-link movie-item" tabindex="0">
+            <img src="Images/Horton.jpg" alt="Horton movie poster" loading="lazy" />
+            <div class="caption">Horton</div>
+        </a>
+        <a href="https://youtu.be/pYub7xwhWYg" class="video-link movie-item" tabindex="0">
+            <img src="Images/Glitch.jpg" alt="Glitch movie poster" loading="lazy" />
+            <div class="caption">Glitch</div>
+        </a>
+        <a href="https://youtu.be/biRnRFC6ikg" class="video-link movie-item" tabindex="0">
+            <img src="Images/Class of lies.jpg" alt="Class of Lies movie poster" loading="lazy" />
+            <div class="caption">Class of Lies</div>
+        </a>
+        <a href="https://youtu.be/CmRih_VtVAs" class="video-link movie-item" tabindex="0">
+            <img src="Images/Suicide Squad.jpg" alt="Suicide Squad movie poster" loading="lazy" />
+            <div class="caption">Suicide Squad</div>
+        </a>
+        <a href="https://youtu.be/QKXnJBs61q0" class="video-link movie-item" tabindex="0">
+            <img src="Images/Special delivery.jpg" alt="Special Delivery movie poster" loading="lazy" />
+            <div class="caption">Special Delivery</div>
+        </a>
+        <a href="https://youtu.be/_Sm6_FK51VA" class="video-link movie-item" tabindex="0">
+            <img src="Images/Night In Paradise.jpg" alt="Night In Paradise movie poster" loading="lazy" />
+            <div class="caption">Night In Paradise</div>
+        </a>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Movie Website. All rights reserved.</p>
+        <ul class="nav" role="navigation" aria-label="Footer navigation">
+            <li><a href="AboutUs.html">Privacy Policy</a></li>
+            <li><a href="AboutUs.html">Terms of Use</a></li>
+            <li><a href="AboutUs.html">Contact Us</a></li>
+        </ul>
+    </div>
+</footer>
+<script src="myscript.js"></script>
+</body>
+</html>
